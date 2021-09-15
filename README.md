@@ -26,7 +26,14 @@ Para iniciar a aplicação:
 yarn dev
 ```
 
-Por fim, a aplicação estará disponível em `http://localhost:3333`
+**1. Visão Cliente**
+```sh
+http://localhost:3333/pages/client
+```
+**2. Visão Administrador**
+```sh
+http://localhost:3333/pages/admin
+```
 
 ## Ideias de melhorias
 - [ ] Validar emails
