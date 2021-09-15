@@ -11,10 +11,16 @@ O chat é um plugin para atendimento dos clientes em tempo real.
 
 ## Como usar?
 
-Abra um terminal de sua preferência e caso não tenha o arquivo `database.sqlite` dentro da pasta `src/database`, rode o comando abaixo:
+Abra o terminal na pasta do projeto e instale as dependencias:
+```sh
+yarn
+```
+
+Caso não tenha o arquivo `database.sqlite` dentro da pasta `src/database`, rode o comando abaixo:
 ```sh
 yarn typeorm migration:run
 ```
+
 Para iniciar a aplicação: 
 ```sh
 yarn dev
