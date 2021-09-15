@@ -16,7 +16,7 @@ Abra o terminal na pasta do projeto e instale as dependencias:
 yarn
 ```
 
-Caso não tenha o arquivo `database.sqlite` dentro da pasta `src/database`, rode o comando abaixo:
+Rode o comando abaixo para criação do arquivo `database.sqlite` dentro da pasta `src/database`:
 ```sh
 yarn typeorm migration:run
 ```
